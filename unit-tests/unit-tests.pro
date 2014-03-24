@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-CONFIG += qmltestcase
+CONFIG += qmltestcase console
 CONFIG -= app_bundle
 
 DEFINES += QUICK_TEST_SOURCE_DIR=\\\"$$PWD\\\"

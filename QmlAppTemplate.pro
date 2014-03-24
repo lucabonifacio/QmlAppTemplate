@@ -1,15 +1,15 @@
 TEMPLATE = subdirs
 
-CONFIG += ordered
+#CONFIG += ordered
 
 SUBDIRS += \
-    application-core \
-    main-app \
-    unit-tests
+	main-app \
+	application-core \
+	unit-tests
 
 OTHER_FILES += \
-    common.pri
+	common.pri
 
 # dependencies
 main-app.depends = application-core
-unit-tests.depends = application-core
+#unit-tests.depends = application-core
